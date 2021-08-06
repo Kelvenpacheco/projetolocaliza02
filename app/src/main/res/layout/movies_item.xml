@@ -4,31 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools">
 
 
-    <data>
-
-        <variable
-            name="titulo"
-            type="String" />
-
-    </data>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
+    <FrameLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/posterIV"
-            android:layout_width="100dp"
-            android:layout_height="130dp"
-            app:srcCompat="@drawable/cidadededeus"/>
+        tools:context=".MoviesAdapter">
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/tituloTV"
+            android:id="@+id/titlefilm"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/movies_item_title"
+            android:textColor="@color/titletext"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
-        </androidx.appcompat.widget.AppCompatTextView>
-    </LinearLayout>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/poster"
+            android:layout_width="87dp"
+            android:layout_height="121dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/luca"          />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/seta_list_fordescription"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="380dp"
+            android:layout_marginTop="40dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/setadois"
+            />
+
+
+    </FrameLayout>
 
 </layout>

@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">projetolocalizaentretelas</string>
+    <string name="list_de_films">List films</string>
+    <string name="movies_item_description">Luca vive aventuras com seu novo melhor amigo, mas a diversão</string>
+    <string name="movies_item_title">Luca</string>
+    <string name="movies_item_gener">Animação | 2021 | 1h36m </string>
+    <string name="activity_movie_subtitle"> Movies </string>
+    <string name="activity_main_subtitletitle">Luca vive aventuras com seu novo melhor amigo, mas a diversão</string>
+    <string name="activity_main_textdescription">Luca vive aventuras com seu novo melhor amigo, mas a diversão</string>
+    <string name="arquivo_netflix">Disney</string>
+    <string name="button">Voltar</string>
+    <string name="ano">1h 36m ▫ 2021</string>
+    <string name="genermain">Animação</string>
+    <string name="etariemain">Livre</string>
+    <string name="string_etariemain">Livre</string>
+    <string name="string_titlemain">About the movie</string>
 </resources>
